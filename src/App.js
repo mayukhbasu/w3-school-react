@@ -3,6 +3,7 @@ import './App.css';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import FullScreenVideo from './Pages/FullScreenVideo/FullScreenVideo';
 import Modal from './Pages/Modal/Modal';
+import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<FullScreenVideo/>}/>
           <Route path='/modal' element={<Modal/>}/>
           <Route path='/delete' element={<DeleteModal/>}/>
+          <Route path='/scroll' element={<ScrollIndicator/>}/>
         </Routes>
       </BrowserRouter>
     </div>
