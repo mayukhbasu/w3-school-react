@@ -1,0 +1,23 @@
+.container {
+    background-color: #ccc;
+    margin: 20px;
+    width: 90%;
+}
+
+.html {
+    width: 80%;
+    background-color: red;
+    text-align: right;
+}
+
+.css {
+    width: 75%;
+    background-color: green;
+    text-align: right;
+}
+
+.js {
+    width: 70%;
+    background-color: gold;
+    text-align: right;
+}
