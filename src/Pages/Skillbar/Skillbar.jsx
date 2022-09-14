@@ -4,6 +4,8 @@ import styles from './Skillbar.module.css'
 const Skillbar = () => {
     return (
         <>
+        <p>Default range slider:</p>
+        
             <div className={styles.container}>
                 <div className={styles.html}>90%</div>
             </div>

@@ -6,6 +6,7 @@ import Modal from './Pages/Modal/Modal';
 import ProgressBar from './Pages/ProgressBar/ProgressBar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 import Skillbar from './Pages/Skillbar/Skillbar';
+import Tooltips from './Pages/ToolTips/Tooltips';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/scroll' element={<ScrollIndicator/>}/>
           <Route path='/progress' element={<ProgressBar/>}/>
           <Route path='/skill' element={<Skillbar/>}/>
+          <Route path='/tooltip' element={<Tooltips/>}/>
         </Routes>
       </BrowserRouter>
     </div>
