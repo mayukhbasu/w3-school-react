@@ -1,0 +1,23 @@
+.myProgress {
+    width: 100%;
+    background-color: #ccc;
+}
+
+.myBar {
+    width: 0%;
+    height: 20px;
+    background-color: #04AA6D;
+}
+
+.button {
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    background-color: silver;
+    cursor: pointer;
+}
+
+

@@ -3,6 +3,7 @@ import './App.css';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import FullScreenVideo from './Pages/FullScreenVideo/FullScreenVideo';
 import Modal from './Pages/Modal/Modal';
+import ProgressBar from './Pages/ProgressBar/ProgressBar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/modal' element={<Modal/>}/>
           <Route path='/delete' element={<DeleteModal/>}/>
           <Route path='/scroll' element={<ScrollIndicator/>}/>
+          <Route path='/progress' element={<ProgressBar/>}/>
         </Routes>
       </BrowserRouter>
     </div>
