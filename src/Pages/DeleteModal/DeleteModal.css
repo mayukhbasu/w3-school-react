@@ -1,0 +1,69 @@
+.deleteButton {
+    width: 300px;
+    border: none;
+    height: 50px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    transform: translate(35vw, 40vh);
+    cursor: pointer;
+}
+
+.modal-delete {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content-delete {
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    padding: 15px;
+    transform: translate(30vw, 35vh);
+    border-radius: 10px;
+    animation-name: delete-button-positioning;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes delete-button-positioning {
+    0% {
+        transform: translate(30vw, 0vh);
+    }
+    33% {
+        transform: translate(30vw, 12vh);
+    }
+    66% {
+        transform: translate(30vw, 25vh);
+    }
+    100%{
+        transform: translate(30vw, 35vh);
+    }
+}
+
+.buttons-delete {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.buttons-delete > button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons-delete > button:nth-child(1) {
+    background-color: rgb(195, 14, 14);
+}
+
+.buttons-delete > button:nth-child(2) {
+    background-color: rgb(193, 193, 60);
+}
