@@ -1,0 +1,20 @@
+.text {
+    width: 70%;
+    margin: 100px auto 0 auto;
+    background-color: #ccc;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hoverText {
+    width: 70%;
+    margin: 0 auto;
+    display: none;
+}
+
+.text:hover + .hoverText {
+    display: block;
+}
