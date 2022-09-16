@@ -4,6 +4,7 @@ import Calender from './Pages/Calender/Calender';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import DisplayHover from './Pages/DisplayHover/DisplayHover';
 import FullScreenVideo from './Pages/FullScreenVideo/FullScreenVideo';
+import Loader from './Pages/Loader/Loader';
 import Modal from './Pages/Modal/Modal';
 import Popups from './Pages/Popups/Popups';
 import ProgressBar from './Pages/ProgressBar/ProgressBar';
@@ -29,6 +30,7 @@ function App() {
           <Route path='/hover' element={<DisplayHover/>}/>
           <Route path='/popup' element={<Popups/>}/>
           <Route path='/calender' element={<Calender/>}/>
+          <Route path='/loader' element={<Loader/>}/>
         </Routes>
       </BrowserRouter>
     </div>
