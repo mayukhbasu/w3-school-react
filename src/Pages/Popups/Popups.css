@@ -1,33 +1,32 @@
 .popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    transform: translate(300px, 300px);
+  transform: translate(400px, 300px);
+  position: relative;
+  cursor: pointer;
+}
+
+.popupText {
+  visibility: hidden;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: -50px;
+  left: -10px;
+}
+
+
+.popup .show {
+  visibility: visible;
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  /* The actual popup (appears on top) */
-  .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
+  to {
+    opacity: 1;
   }
-  
-  /* Popup arrow */
-  
-  
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
-    visibility: visible;
-    
-  }
-  
-  
+}
