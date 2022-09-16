@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Calender from './Pages/Calender/Calender';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import DisplayHover from './Pages/DisplayHover/DisplayHover';
 import FullScreenVideo from './Pages/FullScreenVideo/FullScreenVideo';
@@ -10,6 +11,7 @@ import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 import Skillbar from './Pages/Skillbar/Skillbar';
 import Tooltips from './Pages/ToolTips/Tooltips';
 import TreeView from './Pages/TreeView/TreeView';
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path='/tree' element={<TreeView/>}/>
           <Route path='/hover' element={<DisplayHover/>}/>
           <Route path='/popup' element={<Popups/>}/>
+          <Route path='/calender' element={<Calender/>}/>
         </Routes>
       </BrowserRouter>
     </div>
