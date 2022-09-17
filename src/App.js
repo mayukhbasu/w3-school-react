@@ -12,6 +12,7 @@ import ProgressBar from './Pages/ProgressBar/ProgressBar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 import Skillbar from './Pages/Skillbar/Skillbar';
 import Snackbar from './Pages/Snackbar/Snackbar';
+import Star from './Pages/Star/Star';
 import Tooltips from './Pages/ToolTips/Tooltips';
 import TreeView from './Pages/TreeView/TreeView';
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/loader' element={<Loader/>}/>
           <Route path='/flip' element={<FlipCard/>}/>
           <Route path='/snack' element={<Snackbar/>}/>
+          <Route path='/star' element={<Star/>}/>
         </Routes>
       </BrowserRouter>
     </div>

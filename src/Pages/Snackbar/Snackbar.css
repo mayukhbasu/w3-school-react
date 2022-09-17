@@ -1,34 +1,34 @@
 #snackbar {
-    position: fixed;
     visibility: hidden;
-    left: 50%;
+    position: fixed;
+    bottom: 100px;
     background-color: gray;
-    color: white;
     border-radius: 10px;
-    padding: 15px;
-    z-index: 1;
-    bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    left: 40vw;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
 }
 
 #snackbar.show {
     visibility: visible;
-    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
 }
 
 @keyframes fadeIn {
     from {
         bottom: 0px;
-        opacity: 0;
+        opacity: 1;
     }
-    to {
-        bottom: 30px;
+    to{
+        bottom: 100px;
         opacity: 1;
     }
 }
 
 @keyframes fadeOut {
     from {
-        bottom: 30px;
+        bottom: 100px;
         opacity: 1;
     }
     to {
