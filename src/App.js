@@ -11,6 +11,7 @@ import Popups from './Pages/Popups/Popups';
 import ProgressBar from './Pages/ProgressBar/ProgressBar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 import Skillbar from './Pages/Skillbar/Skillbar';
+import Snackbar from './Pages/Snackbar/Snackbar';
 import Tooltips from './Pages/ToolTips/Tooltips';
 import TreeView from './Pages/TreeView/TreeView';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/calender' element={<Calender/>}/>
           <Route path='/loader' element={<Loader/>}/>
           <Route path='/flip' element={<FlipCard/>}/>
+          <Route path='/snack' element={<Snackbar/>}/>
         </Routes>
       </BrowserRouter>
     </div>
