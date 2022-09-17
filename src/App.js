@@ -3,6 +3,7 @@ import './App.css';
 import Calender from './Pages/Calender/Calender';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import DisplayHover from './Pages/DisplayHover/DisplayHover';
+import FlipCard from './Pages/Flipcard/FlipCard';
 import FullScreenVideo from './Pages/FullScreenVideo/FullScreenVideo';
 import Loader from './Pages/Loader/Loader';
 import Modal from './Pages/Modal/Modal';
@@ -31,6 +32,7 @@ function App() {
           <Route path='/popup' element={<Popups/>}/>
           <Route path='/calender' element={<Calender/>}/>
           <Route path='/loader' element={<Loader/>}/>
+          <Route path='/flip' element={<FlipCard/>}/>
         </Routes>
       </BrowserRouter>
     </div>
