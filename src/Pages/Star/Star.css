@@ -14,21 +14,29 @@
     float: right;
 }
 
-.rating > label:before { 
+.rating > label:after { 
     margin: 5px;
     font-size: 1.25em;
     font-family: FontAwesome;
     content: "\f005";
     display: inline-block;
 }
+.rating > input:checked ~ label,
+.rating > input:not(:checked) ~ label:hover,
+.rating > input:not(:checked) ~ label:hover ~ label
+ {
+    color: #FFD700;
+}
 
-.rating > input:checked ~ label, 
+
+
+/* .rating > input:checked ~ label, 
 .rating:not(:checked) > label:hover, 
 .rating:not(:checked) > label:hover ~ label{
     color: #FFD700;
 }
 
-.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked + label:hover, 
 .rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }  */
