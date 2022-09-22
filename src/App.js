@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calender from './Pages/Calender/Calender';
+import Card from './Pages/Card/Card';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import DisplayHover from './Pages/DisplayHover/DisplayHover';
 import FlipCard from './Pages/Flipcard/FlipCard';
@@ -37,6 +38,7 @@ function App() {
           <Route path='/flip' element={<FlipCard/>}/>
           <Route path='/snack' element={<Snackbar/>}/>
           <Route path='/star' element={<Star/>}/>
+          <Route path='/card' element={<Card/>}/>
         </Routes>
       </BrowserRouter>
     </div>
