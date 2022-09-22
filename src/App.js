@@ -11,6 +11,7 @@ import Modal from './Pages/Modal/Modal';
 import Popups from './Pages/Popups/Popups';
 import ProgressBar from './Pages/ProgressBar/ProgressBar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
+import Search from './Pages/Search/Search';
 import Skillbar from './Pages/Skillbar/Skillbar';
 import Snackbar from './Pages/Snackbar/Snackbar';
 import Star from './Pages/Star/Star';
@@ -39,6 +40,7 @@ function App() {
           <Route path='/snack' element={<Snackbar/>}/>
           <Route path='/star' element={<Star/>}/>
           <Route path='/card' element={<Card/>}/>
+          <Route path='/search' element={<Search/>}/>
         </Routes>
       </BrowserRouter>
     </div>
