@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calender from './Pages/Calender/Calender';
 import Card from './Pages/Card/Card';
+import CollapseSidebar from './Pages/Collapsibile-Sidebar/CollapseSidebar';
 import DeleteModal from './Pages/DeleteModal/DeleteModal';
 import DisplayHover from './Pages/DisplayHover/DisplayHover';
 import FlipCard from './Pages/Flipcard/FlipCard';
@@ -43,6 +44,7 @@ function App() {
           <Route path='/card' element={<Card/>}/>
           <Route path='/search' element={<Search/>}/>
           <Route path='/sidebar' element={<ResponsiveSidebar/>}/>
+          <Route path='/csidebar' element={<CollapseSidebar/>}/>
         </Routes>
       </BrowserRouter>
     </div>
