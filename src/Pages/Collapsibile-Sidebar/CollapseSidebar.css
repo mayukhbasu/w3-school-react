@@ -6,6 +6,16 @@
     overflow: auto;
     display: none;
     transition: 0.3s;
+    animation: col 0.3s linear;
+}
+
+@keyframes col {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 200px;
+    }
 }
 .collapse-sidebar  a {
     display: block;
