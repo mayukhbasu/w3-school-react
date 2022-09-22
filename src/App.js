@@ -10,6 +10,7 @@ import Loader from './Pages/Loader/Loader';
 import Modal from './Pages/Modal/Modal';
 import Popups from './Pages/Popups/Popups';
 import ProgressBar from './Pages/ProgressBar/ProgressBar';
+import ResponsiveSidebar from './Pages/Responsive-Search/ResponsiveSidebar';
 import ScrollIndicator from './Pages/ScrollIndicator/ScrollIndicator';
 import Search from './Pages/Search/Search';
 import Skillbar from './Pages/Skillbar/Skillbar';
@@ -41,6 +42,7 @@ function App() {
           <Route path='/star' element={<Star/>}/>
           <Route path='/card' element={<Card/>}/>
           <Route path='/search' element={<Search/>}/>
+          <Route path='/sidebar' element={<ResponsiveSidebar/>}/>
         </Routes>
       </BrowserRouter>
     </div>
